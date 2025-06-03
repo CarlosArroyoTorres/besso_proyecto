@@ -1,0 +1,828 @@
+h1 {
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    color: blue;
+    border: 10px solid gold;
+    border-radius: 15px;
+    border-style: double;
+}
+.header{
+    width: 100%;
+    background: gold;
+    display: inline-block;
+    justify-content: space-between;
+    height: 30vh;
+    align-items: center;
+}
+.header img{
+    width: 150px;
+    height: 150px;
+    margin-top: 5px;
+}
+
+.nav{
+    height: 50%;
+    padding: 0 100px;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    flex-grow: 1;
+}
+.enlaces{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    padding: 15px;
+}
+.enlaces:hover{
+    cursor: pointer;
+    background: red;
+}
+.nav2{
+    display: inline-block;
+    margin-bottom: 0%;
+}
+.index{
+    background-image: url(./fondo.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.contenedor_01{
+    display: flex;
+    gap: 10px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 25px;
+    font-style: normal;
+    margin: 15px 15px 15px 15px;
+}
+.contenedor_01 h3{
+    color: gold;
+    font-size: 35px;
+    text-shadow: 
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black; 
+    text-align: center;
+}
+.contenedor_01 p{
+    font-size: 20px;
+    text-align: justify;
+    color: white;
+}
+.contenedor_mision img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+.contenedor_vision img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+.historia{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 25px;
+    font-style: normal;
+    margin: 15px 15px 15px 15px;
+}
+.historia h3{
+    color: gold;
+    font-size: 35px;
+    text-shadow: 
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+    text-align: center;
+}
+.historia p{
+    font-size: 20px;
+    text-align: justify;
+    color: white;
+}
+.tienda{
+    background-image: url(./fondo.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.anillos{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 25px;
+    font-style: normal;
+    margin: 15px 15px 15px 15px;
+}
+.anillos h3{
+    color: gold;
+    font-size: 35px;
+    text-shadow: 
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+    text-align: center;    
+}
+.anillo_tienda {
+  display: flex;
+  flex-wrap: wrap;         
+  justify-content: center; 
+  gap: 20px;               
+  padding: 20px;
+}
+
+.anillo_tienda_01 {
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.anillo_tienda_01 img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 2px solid black;
+}
+
+.anillo_tienda_01 label {
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: white;
+}
+
+.anillo_tienda_01 button {
+  padding: 6px 12px;
+  cursor: pointer;
+  border: none;
+  background-color: gold;
+  color: black;
+  border-radius: 5px;
+}
+.anillo_tienda_02 {
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.anillo_tienda_02 img {
+  width: 100%;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+.anillo_tienda_02 label {
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: white;
+}
+
+.anillo_tienda_02 button {
+  padding: 6px 12px;
+  cursor: pointer;
+  border: none;
+  background-color: gold;
+  color: black;
+  border-radius: 5px;
+}
+.anillo_tienda_03 {
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.anillo_tienda_03 img {
+  width: 100%;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+.anillo_tienda_03 label {
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: white;
+}
+
+.anillo_tienda_03 button {
+  padding: 6px 12px;
+  cursor: pointer;
+  border: none;
+  background-color: gold;
+  color: black;
+  border-radius: 5px;
+}
+.anillo_tienda_04 {
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.anillo_tienda_04 img {
+  width: 100%;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+.anillo_tienda_04 label {
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: white;
+}
+
+.anillo_tienda_04 button {
+  padding: 6px 12px;
+  cursor: pointer;
+  border: none;
+  background-color: gold;
+  color: black;
+  border-radius: 5px;
+}
+.aretes{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 25px;
+    font-style: normal;
+    margin: 15px 15px 15px 15px;
+}
+.aretes h3{
+    color: gold;
+    font-size: 35px;
+    text-shadow: 
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+    text-align: center;    
+}
+.arete_tienda {
+  display: flex;
+  flex-wrap: wrap;         
+  justify-content: center; 
+  gap: 20px;               
+  padding: 20px;
+}
+
+.arete_tienda_01 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.arete_tienda_01 img {
+  width: 100%;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+.arete_tienda_01 label {
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: white;
+}
+
+.arete_tienda_01 button {
+  padding: 6px 12px;
+  cursor: pointer;
+  border: none;
+  background-color: gold;
+  color: black;
+  border-radius: 5px;
+}
+.arete_tienda_02 {
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.arete_tienda_02 img {
+  width: 100%;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+.arete_tienda_02 label {
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: white;
+}
+
+.arete_tienda_02 button {
+  padding: 6px 12px;
+  cursor: pointer;
+  border: none;
+  background-color: gold;
+  color: black;
+  border-radius: 5px;
+}
+.arete_tienda_03 {
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.arete_tienda_03 img {
+  width: 100%;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+.arete_tienda_03 label {
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: white;
+}
+
+.arete_tienda_03 button {
+  padding: 6px 12px;
+  cursor: pointer;
+  border: none;
+  background-color: gold;
+  color: black;
+  border-radius: 5px;
+}
+.arete_tienda_04 {
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.arete_tienda_04 img {
+  width: 100%;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+.arete_tienda_04 label {
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: white;
+}
+
+.arete_tienda_04 button {
+  padding: 6px 12px;
+  cursor: pointer;
+  border: none;
+  background-color: gold;
+  color: black;
+  border-radius: 5px;
+}
+.collares{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 25px;
+    font-style: normal;
+    margin: 15px 15px 15px 15px;
+}
+.collares h3{
+    color: gold;
+    font-size: 35px;
+    text-shadow: 
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+    text-align: center;    
+}
+.collar_tienda {
+  display: flex;
+  flex-wrap: wrap;         
+  justify-content: center; 
+  gap: 20px;               
+  padding: 20px;
+}
+
+.collar_tienda_01 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.collar_tienda_01 img {
+  width: 100%;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+.collar_tienda_01 label {
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: white;
+}
+
+.collar_tienda_01 button {
+  padding: 6px 12px;
+  cursor: pointer;
+  border: none;
+  background-color: gold;
+  color: black;
+  border-radius: 5px;
+}
+.collar_tienda_02 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.collar_tienda_02 img {
+  width: 100%;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+.collar_tienda_02 label {
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: white;
+}
+
+.collar_tienda_02 button {
+  padding: 6px 12px;
+  cursor: pointer;
+  border: none;
+  background-color: gold;
+  color: black;
+  border-radius: 5px;
+}
+.collar_tienda_03 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.collar_tienda_03 img {
+  width: 100%;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+.collar_tienda_03 label {
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: white;
+}
+
+.collar_tienda_03 button {
+  padding: 6px 12px;
+  cursor: pointer;
+  border: none;
+  background-color: gold;
+  color: black;
+  border-radius: 5px;
+}
+.collar_tienda_04 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.collar_tienda_04 img {
+  width: 100%;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+.collar_tienda_04 label {
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: white;
+}
+
+.collar_tienda_04 button {
+  padding: 6px 12px;
+  cursor: pointer;
+  border: none;
+  background-color: gold;
+  color: black;
+  border-radius: 5px;
+}
+.promocion{
+    background-image: url(./fondo.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.promo{
+    display: flex;
+    align-content: center;
+}
+.promo img{
+    width: 63px;
+    height: 63px;
+    align-items: center;
+}
+.accesorios{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 25px;
+    font-style: normal;
+    margin: 15px 15px 15px 15px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.accesorios h3{
+    color: gold;
+    font-size: 35px;
+    text-shadow: 
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+    text-align: center; 
+    justify-content: center;   
+}
+.accesorios video{
+    width: 450px;
+    height: 450px;
+    align-items: center;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+.aretes_placas{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 25px;
+    font-style: normal;
+    margin: 15px 15px 15px 15px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.aretes_placas h3{
+    color: gold;
+    font-size: 35px;
+    text-shadow: 
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+    text-align: center;    
+}
+.aretes_placas_01 {
+    text-align: center;
+}
+.aretes_placas_01 video {
+    width: 300px; 
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 5px solid black;
+    border-radius: 5px; 
+}
+.aretes_placas_02 {
+    text-align: center;
+}
+.aretes_placas_02 video {
+    width: 300px; 
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+.san_valentin{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 25px;
+    font-style: normal;
+    margin: 15px 15px 15px 15px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.san_valentin h3{
+    color: gold;
+    font-size: 35px;
+    text-shadow: 
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+    text-align: center; 
+    justify-content: center;   
+}
+.san_valentin video{
+    width: 450px;
+    height: 450px;
+    align-items: center;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+.formulario_envio{
+    background-image: url(./fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+table {
+    width: 100%;
+    max-width: 600px;
+    border-collapse: collapse;
+    margin: 20px auto;
+    border: 2px solid black;
+    padding: 10px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 25px;
+    font-style: normal;
+    margin: 15px 15px 15px 15px;
+}
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+textarea {
+    height: 100px;
+}
+button {
+    padding: 10px 20px;
+    background-color: gold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: darkorange;
+    color: white;
+}
+.feria {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.feria video {
+    width: 50%;
+    max-width: 500px;
+    height: 50%;
+    max-height: 500px;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+.contactenos{
+    background-image: url(./fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+.contacto{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 25px;
+    font-style: normal;
+    margin: 15px 15px 15px 15px;
+}
+.feria_02{
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+}
+.feria_02 img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.footer{
+    width: 100%;
+    background: gold;
+    display: flex;
+    justify-content: space-between;
+    height: 30vh;
+    align-items: center;
+}
+.footer img{
+    width: 150px;
+    height: 150px;
+    margin-top: 5px;
+}
+.iconos{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.iconos img{
+    width: 24px;
+    height: 24px;
+}
+.iconos p{
+    font-size: 15px;
+}
+.mapa{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.mapa img{
+    width: 24px;
+    height: 24px;
+}
+.mapa p{
+    font-size: 15px;
+}
